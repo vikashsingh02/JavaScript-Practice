@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedan:ital@0;1&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+  height: 100%;
+  width: 100%;
+}
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(61,121,241,1) 0%, rgba(50,92,175,1) 100%);
+}
+
+#card{
+    height: 400px;
+    width: 400px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+.cardinfo{
+   padding: 10px;
+}
+.img-profile{
+    height: 250px;
+    border-radius: 10px;
+}
+.name,.friendshipupdate{
+    text-align: center;
+    font-family: "Sedan", serif;
+    font-weight: 800;
+    font-style: normal;
+}
+.friendshipupdate{
+    color: red;
+}
+.btns{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin: 10px;
+    font-family: "Sedan", serif;
+    
+    
+}
+.btn{
+    padding: 10px 15px;
+    font-size: 14px;
+    font-weight: 800;
+    cursor: pointer;
+}
+.removebtn{
+    color: black;
+    background-color: rgb(213, 210, 210);
+    border: none;
+    border-radius: 5px;
+}
+.addbtn{
+    color: white;
+    background-color: rgb(11, 179, 117);
+    border: none;
+    border-radius: 5px;
+
+}
